@@ -23,8 +23,6 @@ class App extends Component {
 		    return <button className="start" onClick={this.buttonClickHandler} >Start</button>
 		}
     }
-
-    // bind ArrowRight keydown event
     componentDidMount() {
         document.addEventListener("keydown", (event) => {
             if (event.key === "ArrowRight" || event.keyCode === 39) {
